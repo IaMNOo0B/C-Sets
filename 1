@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    int num;
+    float decimal;
+    char character;
+
+    // Input from the user
+    printf("Enter an integer: ");
+    scanf("%d", &num);
+    printf("Enter a float: ");
+    scanf("%f", &decimal);
+    printf("Enter a character: ");
+    scanf(" %c", &character);
+
+    // Display the entered values
+    printf("You entered integer: %d\n", num);
+    printf("You entered float: %.2f\n", decimal);
+    printf("You entered character: %c\n", character);
+
+    return 0;
+}
