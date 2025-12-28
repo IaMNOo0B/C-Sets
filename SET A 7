@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    float length, breadth, perimeter;
+
+    // Ask the user to input the length and breadth of the rectangle
+    printf("Enter the length of the rectangle: ");
+    scanf("%f", &length);
+    printf("Enter the breadth of the rectangle: ");
+    scanf("%f", &breadth);
+
+    // Calculate the perimeter of the rectangle
+    perimeter = 2 * (length + breadth);
+
+    // Display the result
+    printf("The perimeter of the rectangle is: %.2f units\n", perimeter);
+
+    return 0;
+}
