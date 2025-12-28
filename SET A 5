@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    float length, breadth, area;
+
+    // Ask the user to input the length and breadth of the rectangle
+    printf("Enter the length of the rectangle: ");
+    scanf("%f", &length);
+    printf("Enter the breadth of the rectangle: ");
+    scanf("%f", &breadth);
+
+    // Calculate the area
+    area = length * breadth;
+
+    // Display the result
+    printf("The area of the rectangle is: %.2f square units\n", area);
+
+    return 0;
+}
